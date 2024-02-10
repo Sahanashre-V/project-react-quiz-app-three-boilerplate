@@ -1,0 +1,54 @@
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main{
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+    padding: 20px;
+  }
+  
+  .blue{
+    color: blue;
+  }
+  
+  .practice{
+    font-weight: 900;
+    font-size: 1.4rem;
+  }
+  
+  .result{
+    color:green;
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  .resultbutton{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    margin-bottom: 30px;
+  }
+  
+  
+  .playagain{
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+  }
+  
+  .backhome{
+    border: 2px solid green;
+    background-color: white;
+    color:green;
+  }
+  
+  .flex>p{
+    font-weight: 900;
+  }

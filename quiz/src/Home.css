@@ -1,0 +1,22 @@
+.quizapp{
+    color:white;
+  }
+
+  body{
+    background-color: #473a8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+    text-align: center;
+  }
+  
+  .play{
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
